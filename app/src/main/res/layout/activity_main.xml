@@ -23,6 +23,15 @@
         android:onClick="addNumber"/>
 
     <Button
+        android:id="@+id/btnRisetNumber"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/riset_number"
+        android:onClick="risetNumber"/>
+
+
+    <Button
         android:id="@+id/btnSubtractNumber"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
@@ -30,12 +39,5 @@
         android:text="@string/subtract_number"
         android:onClick="subtractNumber"/>
 
-    <Button
-        android:id="@+id/btnRisetNumber"
-        android:layout_width="200dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
-        android:text="@string/riset_number"
-        android:onClick="risetNumber"/>
 
 </LinearLayout>
